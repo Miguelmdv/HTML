@@ -1,0 +1,89 @@
+body {
+	margin:0; 
+	background-image: url('img/bg1.png'); 
+	background-repeat: repeat-x;
+}
+#main{
+	width: 1000px; 
+	margin: auto;
+}
+#logo{
+	height: 80px; 
+	width: 330px; 
+	margin-left: 138px; 
+	padding-top:30px; 
+	border-radius: 0px 0 16px 16px;
+	text-align: center; 
+	color:#aecce4; 
+	font-family: Helvetica; 
+	background-color: white; 
+	font-size: 40px; 
+	-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.6); 
+	-moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.6); 
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.6);
+}
+#menu { 
+	font-size: 18px;
+	text-align: left; 
+	position: absolute; 
+	font-family: Arial; 
+	top: 143px; 
+	left: 135px; 
+	list-style-type: none; 
+	text-align: center;
+}
+#menu li { 
+	display: inline; 
+	margin-right: 30px;
+}
+#menu li a {
+	text-decoration: none; 
+	color: #fba417;
+}
+#nav {
+	margin: 0; 
+	padding: 0;
+}
+#social{
+	position: absolute; 
+	right: 18px; top: 90px;
+}
+#social img {
+	float: left; 
+	margin-right: 14px;
+}
+header {
+	position: relative;
+}
+.green {
+	color: #7ab136 !important;
+	/*background-image: url("img/points.png"); */
+}
+.banner {
+background-image: url("img/central.png");
+position: absolute;
+left: 460px;
+top: 199px;
+width: 1005px;
+height: 420px;
+z-index: 100;
+text-align: center;
+}
+#phrase1 {
+	style="top:250px;
+	height: 170px; width: 1330px; 
+	font-size: 43px; 
+	font-family: "Century Gothic"
+}
+#phrase2 {
+	width: 1330px; 
+	color: rgb(122, 166, 201); 
+	font-size: 46px; 
+	font-family: "Antipasto"
+}
+
+#content{
+	position:absolute;
+	left: 438px; 
+	top:650px;
+}
