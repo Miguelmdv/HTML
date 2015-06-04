@@ -56,34 +56,59 @@ header {
 	position: relative;
 }
 .green {
-	color: #7ab136 !important;
+	color: #96d045 !important;
 	/*background-image: url("img/points.png"); */
 }
 .banner {
-background-image: url("img/central.png");
-position: absolute;
-left: 460px;
-top: 199px;
-width: 1005px;
-height: 420px;
-z-index: 100;
-text-align: center;
+	background-image: url("img/central.png");
+	position: relative;
+	left: 6px;
+	top: 92px;
+	width: 1005px;
+	height: 420px;
+	z-index: 1;
+	text-align: center;
 }
 #phrase1 {
-	style="top:250px;
-	height: 170px; width: 1330px; 
-	font-size: 43px; 
-	font-family: "Century Gothic"
+	font-size: 55px;
+	margin-left: 350px;
+	width: 655px;
+	top: 100px;
+	font-family: "Myriad Pro";
+	vertical-align: text-bottom;
+	height: auto !important;
+	padding-top: 73px;
 }
 #phrase2 {
-	width: 1330px; 
-	color: rgb(122, 166, 201); 
-	font-size: 46px; 
-	font-family: "Antipasto"
+	color: #7AA6C9;
+	font-family: "Century Gothic";
+	margin-left: 350px;
+	font-size: 41px;
+	height: auto !important;
+	color: #7AA6C9;
+	padding-top: 20px;
 }
 
 #content{
-	position:absolute;
-	left: 438px; 
-	top:650px;
+	position: relative;
+	right: 12px;
+	top: 154px;
+}
+
+
+#sign-up {
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 7px;
+  background-image: -moz-linear-gradient( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
+  background-image: -webkit-linear-gradient( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
+  background-image: -ms-linear-gradient( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.6);
+  position: absolute;
+  left: 1150px;
+  top: 202px;
+  width: 53px;
+  height: 194px;
+  z-index: 90;
 }
