@@ -57,7 +57,6 @@ header {
 }
 .green {
 	color: #96d045 !important;
-	/*background-image: url("img/points.png"); */
 }
 .banner {
 	background-image: url("img/central.png");
@@ -101,14 +100,19 @@ header {
   border-width: 1px;
   border-color: rgb(255, 255, 255);
   border-radius: 7px;
-  background-image: -moz-linear-gradient( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
-  background-image: -webkit-linear-gradient( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
-  background-image: -ms-linear-gradient( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
+  background-image: ( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
+  background-image: ( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
+  background-image: ( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
   box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.6);
-  position: absolute;
-  left: 1150px;
+  position: fixed;
+  left: 1855px;
   top: 202px;
   width: 53px;
   height: 194px;
   z-index: 90;
+}
+
+
+footer {
+
 }
