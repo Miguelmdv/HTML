@@ -3,6 +3,20 @@ body {
 	background-image: url('img/bg1.png'); 
 	background-repeat: repeat-x;
 }
+#sign-up {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #FFF;
+	border-radius: 7px;
+	width: 53px;
+	box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.6);
+	height: 194px;
+	float: right;
+	z-index: 100;
+	position: relative;
+	top: 205px;
+	right: -7px;
+}
 #main{
 	width: 1000px; 
 	margin: auto;
@@ -18,8 +32,8 @@ body {
 	font-family: Helvetica; 
 	background-color: white; 
 	font-size: 40px; 
-	-webkit-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.6); 
-	-moz-box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.6); 
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.6); 
+	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.6); 
 	box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.6);
 }
 #menu { 
@@ -55,6 +69,7 @@ body {
 header {
 	position: relative;
 }
+
 .green {
 	color: #96d045 !important;
 }
@@ -94,23 +109,6 @@ header {
 	top: 154px;
 }
 
-
-#sign-up {
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgb(255, 255, 255);
-  border-radius: 7px;
-  background-image: ( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
-  background-image: ( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
-  background-image: ( 90deg, rgb(123,170,57) 0%, rgb(150,208,69) 100%);
-  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.6);
-  position: fixed;
-  left: 1855px;
-  top: 202px;
-  width: 53px;
-  height: 194px;
-  z-index: 90;
-}
 
 
 footer {
