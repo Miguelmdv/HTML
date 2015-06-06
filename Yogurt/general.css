@@ -126,5 +126,9 @@ header {
 }
 
 footer {
+	position: relative;
+	bottom: -200px;
 
 }
+
+
