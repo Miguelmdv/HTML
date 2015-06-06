@@ -109,7 +109,21 @@ header {
 	top: 154px;
 }
 
+#paragraphs{
+	position: relative;
+	width: 1000px;
+	height: 140px;
+	left: 15px;
+	top: 140px;
+	display: flex;
+}
 
+.text{
+	width: 263px;
+	font-size: 10pt;
+	font-family: "Arial";
+	color: #666666;
+}
 
 footer {
 
